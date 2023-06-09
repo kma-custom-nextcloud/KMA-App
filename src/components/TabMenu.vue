@@ -83,6 +83,8 @@ export default {
 
 .tabs {
   display: flex;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 .tabs>div {

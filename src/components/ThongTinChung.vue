@@ -39,7 +39,7 @@
       </div>
       <div class="block-list-item">
         <label>Giới tính</label>
-        <div v-if="!edit">{{ user[0].gender === 1 ? 'Nam' : (user[0].gender === 0 ? 'Nữ' : '') }}</div>
+        <div v-if="!edit">{{ user[0].gender == 1 ? 'Nam' : (user[0].gender == 0 ? 'Nữ' : '') }}</div>
         <select class="field" v-model="user[0].gender" v-if="edit">
           <option v-for="option in gioitinh" :value="option.value">
             {{ option.text }}
@@ -95,7 +95,7 @@
         <NcTextField :value.sync="user[0].salary" v-if="edit" />
       </div>
       <div class="block-list-item">
-        <label>Email (*)</label>
+        <label>Email</label>
         <div v-if="!edit">{{ user[0].email }}</div>
         <NcTextField :value.sync="user[0].email" v-if="edit" />
         <!-- <span v-if="!email">Please fill out this field</span> -->
@@ -106,7 +106,7 @@
         <NcTextField :value.sync="user[0].coefficients_salary" v-if="edit" />
       </div>
       <div class="block-list-item">
-        <label>CCCD/CMND</label>
+        <label>CCCD/CMND (*)</label>
         <div v-if="!edit">{{ user[0].id_number }}</div>
         <NcTextField :value.sync="user[0].id_number" v-if="edit" />
       </div>

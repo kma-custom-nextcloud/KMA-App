@@ -211,5 +211,7 @@ export default {
   grid-template-rows: repeat(auto-fill, auto);
   grid-gap: 45%;
   width: 100%;
+  padding-top: 15px;
+  margin-left: 20px;
 }
 </style>

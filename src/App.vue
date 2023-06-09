@@ -102,6 +102,6 @@ export default {
 }
 
 .kmaapp-content {
-	padding-top: 20px !important;
+	padding-top: 0px !important;
 }
 </style>

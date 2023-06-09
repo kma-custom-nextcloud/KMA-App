@@ -2,7 +2,7 @@
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <!--
-    SPDX-FileCopyrightText: Lucy Mills <ct040407@actvn.edu.vn>
+    SPDX-FileCopyrightText: Nguyễn Duy Hoàn <ct030324@actvn.edu.vn>
     SPDX-License-Identifier: CC0-1.0
     -->
     <id>kmaapp</id>
